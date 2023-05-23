@@ -16,11 +16,11 @@ else:
     raise SystemExit('Invalid Input. Try again...')
 print(f'Player choose {player_move}')
 
-computer_random_num = random.randint(1, 4)
+computer_random_num = random.randint(1, 3)
 computer_move = ''
-if computer_move == 'r':
+if computer_move == 1:
     computer_move = 'rock'
-elif computer_move == 'p':
+elif computer_move == 2:
     computer_move = 'paper'
 else:
     computer_move = scissors
